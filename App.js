@@ -27,7 +27,11 @@ import {
 const App: () => React$Node = () => {
   return (
     <>
-     <Text> Zero </Text>
+      <StatusBar barStyle="dark-content" />
+      <SafeAreaView>
+       <Text>Ok</Text>
+            
+      </SafeAreaView>
     </>
   );
 };
